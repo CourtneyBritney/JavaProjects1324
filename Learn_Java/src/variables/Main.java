@@ -26,6 +26,9 @@ public class Main {
         System.out.println("Now subtract " + subtraction + prompt);
         scanner.nextLine();
 
+        answer = firstNumber * secondNumber - subtraction;
+        System.out.println("The answer is " + answer); 
+
         scanner.close();
     }
 }
